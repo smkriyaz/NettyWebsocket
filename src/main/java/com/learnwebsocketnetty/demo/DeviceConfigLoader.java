@@ -3,11 +3,13 @@ package com.learnwebsocketnetty.demo;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.annotation.PostConstruct;
+import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
+@Component
 public class DeviceConfigLoader {
 
     private List<DeviceConfig> deviceConfigList;

@@ -2,16 +2,7 @@
         {
         "deviceName": "DeviceA",
         "port": 8091,
-        "handlerClass": "com.websocketnettylearn.handlers.DeviceAHandler"
-        },
-        {
-        "deviceName": "DeviceB",
-        "port": 8092,
-        "handlerClass": "com.websocketnettylearn.handlers.DeviceBHandler"
-        },
-        {
-        "deviceName": "Devicec",
-        "port": 8093,
-        "handlerClass": "com.websocketnettylearn.handlers.DeviceCHandler"
+        "handlerClass": "com.learnwebsocketnetty.demo.ServerHandler"
         }
+
         ]
